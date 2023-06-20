@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cash-container {
+  background-color: #150b3e;
+  /* height: 100%; */
+  background-color: cover;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+}
+.s-user {
+  background-color: #c7d2fe;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+.user-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  color: #d4d2db;
+}
+.balance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.your-bal {
+  color: #382f5a;
+  font-weight: bold;
+}
+.amount {
+  color: #c7d2fe;
+  font-weight: bold;
+}
+.rupees {
+  font-size: 13px;
+  color: #382f5a;
+  text-align: end;
+}
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 24px;
+  }
+  .rupees {
+    font-size: 18px;
+  }
+  .cash-container {
+    padding: 25px;
+    border-radius: 15px;
+    font-family: 'Roboto';
+  }
+  .s-user {
+    height: 50px;
+    width: 50px;
+    border-radius: 38px;
+    margin-right: 10px;
+  }
+}
+
+h4 {
+  color: #c4c4c4;
+}
+.choose-sum {
+  color: #382f5a;
+  font-size: 12px;
+  font-weight: 500;
+}
+.denomination-list {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
